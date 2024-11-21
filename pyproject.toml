@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "ai-pdf-assistant"
+version = "0.1.0"
+description = ""
+authors = ["hyp3r00t <rajesh@hyperoot.dev>"]
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.12"
+langchain = "^0.3.7"
+langchain-community = "^0.3.7"
+sentence-transformers = "^3.3.1"
+gradio = "^5.6.0"
+langchain-ollama = "^0.2.0"
+langchain-huggingface = "^0.1.2"
+pypdf = "^5.1.0"
+chromadb = "^0.5.20"
+accelerate = "^1.1.1"
+torch = { url = "https://download.pytorch.org/whl/cu124/torch-2.5.1%2Bcu124-cp312-cp312-win_amd64.whl" }
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
